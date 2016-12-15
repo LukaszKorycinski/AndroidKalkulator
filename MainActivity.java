@@ -49,7 +49,6 @@ public class MainActivity extends Activity {
         float firstValue = Float.parseFloat(firstNumberEditText.getText().toString());
         float secondValue = Float.parseFloat(secondNumberEditText.getText().toString());
         resultTextView.setText(firstValue+" "+mathematicalOperation.GetOperationType()+" "+secondValue+" = "+mathematicalOperation.Calculate(firstValue, secondValue));
-
     }
 
 
