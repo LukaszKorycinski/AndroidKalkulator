@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 
+
 public class MainActivity extends Activity {
 
     private Button additionButton;
@@ -39,7 +40,6 @@ public class MainActivity extends Activity {
 
         mathematicalOperation = new Addition();//domyslnie ustawiam operacje na dodawanie, wzorzec strategia
         onClickListeners();
-
     }
 
 
@@ -60,13 +60,13 @@ public class MainActivity extends Activity {
 
 
         subtractionButton.setOnClickListener(v -> {//Lambda
-            mathematicalOperation = new Subtraction();//operacja dodawanie, wzorzec strategia
+            mathematicalOperation = new Subtraction();//operacja odejmowania, wzorzec strategia
             DrawResult();
         });
 
 
         multiplicationButton.setOnClickListener(v -> {//Lambda
-            mathematicalOperation = new Multiplicatio();//operacja dodawanie, wzorzec strategia
+            mathematicalOperation = new Multiplicatio();//operacja mnożenia, wzorzec strategia
             DrawResult();
         });
 
