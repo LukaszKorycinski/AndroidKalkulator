@@ -9,7 +9,7 @@ public class Subtraction implements MathematicalOperation {
     @Override
     public float Calculate(float x, float y)
     {
-        return x+y;
+        return x-y;
     }
 
     @Override
